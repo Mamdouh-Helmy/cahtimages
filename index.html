@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Render All  Elements Normally-->
+    <link rel="stylesheet" href="normallize.css">
+    <!-- Font Awesome library -->
+    <link rel="stylesheet" href="all.min.css">
+    <title>Chat Images</title>
+</head>
+<body id="body">
+    <div class="cont">
+        <div class="head">
+            <h1>AI Images Generator</h1>
+            <div id="dark" class="dark">
+                <i class="fa-solid fa-moon light"></i>
+                <i class="fa-solid fa-sun dar"></i>
+            </div>
+        </div>
+        <div class="images">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="propmt">
+            <input type="text" id="inp">
+            <button onclick="getImages()">Generate</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
